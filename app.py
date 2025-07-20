@@ -5,7 +5,7 @@ import numpy as np
 
 import io
 import os
-import gdown
+
 
 # --- Load Model and Metadata from Google Drive ---
 MODEL_URL = "https://drive.google.com/file/d/1YcqF579snKy36ihiiWVsHJj4wkPponCF/view?usp=sharing"  # Replace with actual file ID
