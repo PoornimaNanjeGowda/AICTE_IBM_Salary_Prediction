@@ -10,9 +10,9 @@ import os
 # --- Load Model and Metadata from Google Drive ---
 MODEL_URL = "https://drive.google.com/file/d/1YcqF579snKy36ihiiWVsHJj4wkPponCF/view?usp=sharing"  # Replace with actual file ID
 try:
-model = joblib.load ("best_model.pkl")
-trained_columns = joblib.load("trained_columns.pkl")
-label_encoders = joblib.load("label_encoders.pkl")
+    model = joblib.load ("best_model.pkl")
+    trained_columns = joblib.load("trained_columns.pkl")
+    label_encoders = joblib.load("label_encoders.pkl")
 except Exception as e:
     st.error(f"❌ Error loading model files: {e}")
 
