@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+import joblib
 
 import io
 import os
@@ -10,8 +10,8 @@ import os
 # --- Load Model and Metadata from Google Drive ---
 MODEL_URL = "https://drive.google.com/file/d/1YcqF579snKy36ihiiWVsHJj4wkPponCF/view?usp=sharing"  # Replace with actual file ID
 MODEL_PATH = "/content/best_model.pkl"
-TRAINED_COLUMNS_PATH = "/content/trained_columns.pkl"
-LABEL_ENCODERS_PATH = "/content/label_encoders.pkl"
+trained_columns = joblib.load("/content/trained_columns.pkl")
+label_encoders = joblib.load("/content/label_encoders.pkl")
 
 
 # USD to INR conversion
