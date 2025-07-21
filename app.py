@@ -7,9 +7,9 @@ import plotly.graph_objects as go
 import io
 
 # Load model and encoders
-model = joblib.load("/content/best_model.pkl.gz")
-trained_columns = joblib.load("/content/trained_columns.pkl")
-label_encoders = joblib.load("/content/label_encoders.pkl")
+model = joblib.load("best_model.pkl.gz")
+trained_columns = joblib.load("trained_columns.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
 
 # USD to INR conversion rate
 USD_TO_INR = 83.5
