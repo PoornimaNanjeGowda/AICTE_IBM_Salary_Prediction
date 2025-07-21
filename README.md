@@ -9,17 +9,6 @@ An AI-powered web application that predicts employee salaries based on job role,
 
 ---
 
-## 🚀 Live App
-
-👉 (# 💼 AICTE IBM Employee Salary Prediction
-
-An AI-powered web application that predicts employee salaries based on job role, education, experience, and gender. This project was developed under the **AICTE–IBM Internship Program** using machine learning, and offers a simple and intuitive interface to analyze and visualize salary trends.
-
-![Salary Prediction]
-
-(https://github.com/PoornimaNanjeGowda/AICTE_IBM_Salary_Prediction)
-
----
 
 ## 🚀 Live App
 
